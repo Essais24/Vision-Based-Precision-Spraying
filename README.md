@@ -12,12 +12,12 @@ A prototype that detects weeds from a downward-facing camera, estimates their po
 
 ### Video
 
-<video src="https://github.com/Essais24/Vision-Based-Precision-Spraying/raw/main/media/precision_sprayer.mp4" controls width="100%"></video>
+<video src="https://github.com/Essais24/Vision-Based-Precision-Spraying/raw/main/assets/media/precision_sprayer.mp4" controls width="100%"></video>
 
 
 | Static test | Moving test |
 |---|---|
-| <img src="https://github.com/Essais24/Vision-Based-Precision-Spraying/raw/main/media/static_ui.jpg" alt="UI during static test" width="100%"> | <img src="https://github.com/Essais24/Vision-Based-Precision-Spraying/raw/main/media/moving_ui.jpg" alt="UI during moving test" width="100%"> |
+| <img src="https://github.com/Essais24/Vision-Based-Precision-Spraying/raw/main/assets/media/static_ui.png" alt="UI during static test" width="100%"> | <img src="https://github.com/Essais24/Vision-Based-Precision-Spraying/raw/main/assets/media/moving_ui.png" alt="UI during moving test" width="100%"> |
 | Dashboard during a stationary spray test | Dashboard during a tractor pass over the marked frame |
  
 
