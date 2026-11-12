@@ -91,18 +91,6 @@ Intrinsics are stored for 1920 × 1080 with a reprojection RMS of 2.45 px. This 
 - Servo feedback, independent valve commands, and pressure or flow sensing.
 - Field trials with matched blanket-spraying comparisons to measure liquid savings.
 
-## Repository contents
-
-> Edit this section to match your repository layout.
-
-```
-├── docs/            # project report (PDF/DOCX) and presentation (PPTX)
-├── training/        # YOLOv8m training script, results.csv, plots
-├── deepstream/      # DeepStream and nvinfer configuration files
-├── controller/      # Python controller, UI and ESP32 firmware
-├── calibration/     # camera_calibration.npz, weed_tuning_profile.json
-└── media/           # UI photos and demo video
-```
 
 ## Requirements
 
