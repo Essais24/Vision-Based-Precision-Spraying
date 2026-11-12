@@ -12,7 +12,9 @@ A prototype that detects weeds from a downward-facing camera, estimates their po
 
 ### Video
 
-https://github.com/user-attachments/assets/492e3cff-de02-49fc-9724-d971d0c4f41c
+<video src="https://github.com/user-attachments/assets/492e3cff-de02-49fc-9724-d971d0c4f41c" controls width="100%"></video>
+
+[Watch / download the demo video](media/precision_sprayer.mp4)
 
 ### UI
 | Static test | Moving test |
