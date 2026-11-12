@@ -12,7 +12,7 @@ A prototype that detects weeds from a downward-facing camera, estimates their po
 
 ### Video
 
-https://github.com/YOUR_USERNAME/YOUR_REPO/assets/XXXXXXX/your-video-id
+https://github.com/Essais24/Vision-Based-Precision-Spraying/assets/media/precision sprayer.mp4
 
 [Download / watch the demo video](media/demo.mp4)
 
@@ -20,7 +20,7 @@ https://github.com/YOUR_USERNAME/YOUR_REPO/assets/XXXXXXX/your-video-id
 
 | Static test | Moving test |
 |---|---|
-| ![UI during static test](media/ui_static_test.jpg) | ![UI during moving test](media/ui_moving_test.jpg) |
+| ![UI during static test](assets/media/static_ui.jpg) | ![UI during moving test](assets/media/moving_ui.jpg) |
 | Dashboard during a stationary spray test | Dashboard during a tractor pass over the marked frame |
 
 ## How it works
