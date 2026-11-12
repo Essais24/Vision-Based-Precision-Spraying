@@ -12,9 +12,7 @@ A prototype that detects weeds from a downward-facing camera, estimates their po
 
 ### Video
 
-https://github.com/Essais24/Vision-Based-Precision-Spraying/assets/media/precision sprayer.mp4
-
-[Download / watch the demo video](media/demo.mp4)
+https://github.com/Essais24/Vision-Based-Precision-Spraying/assets/media/precision_sprayer.mp4
 
 ### User interface
 
