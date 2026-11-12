@@ -1,0 +1,14 @@
+# GUI image conversion and display
+Pillow>=10.0
+
+# Detection pipeline
+numpy>=1.24
+opencv-python>=4.8
+
+
+# CUDA driver API used only for the NVMM-to-CPU GUI preview copy
+cuda-bindings>=13.0
+
+# Web control panel and ESP32 UART link
+Flask>=3.0
+pyserial>=3.5

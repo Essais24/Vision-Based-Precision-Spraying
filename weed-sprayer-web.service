@@ -1,0 +1,21 @@
+[Unit]
+Description=Weed sprayer dual-DeepStream web controller
+Wants=network-online.target
+After=network-online.target nvargus-daemon.service
+
+[Service]
+Type=simple
+User=archi
+WorkingDirectory=/home/archi/Desktop/BTP-I
+Environment=WEBGUI_AUTOSTART=0
+Environment=WEBGUI_PORT=8000
+# UART access (dialout), CSI/video nodes (video), and CUDA/DRM (render).
+SupplementaryGroups=dialout video render
+ExecStart=/home/archi/Desktop/BTP-I/btp_env/bin/python /home/archi/Desktop/BTP-I/web_gui.py
+Restart=always
+RestartSec=5
+KillSignal=SIGINT
+TimeoutStopSec=20
+
+[Install]
+WantedBy=multi-user.target

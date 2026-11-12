@@ -1,0 +1,40 @@
+################################################################################
+# GPU-only DeepStream/TensorRT configuration for best_weed.onnx.
+#
+# DeepStream builds model_weed_b1_gpu0_fp16.engine on this Orin on first run.
+# That engine is intentionally separate from model_b1_gpu0_fp16.engine: each
+# TensorRT engine contains one model's weights and architecture.
+################################################################################
+
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+model-color-format=0
+onnx-file=best_weed.onnx
+model-engine-file=model_weed_b1_gpu0_fp16.engine
+labelfile-path=labels_weed.txt
+batch-size=1
+network-mode=2
+
+num-detected-classes=1
+interval=0
+# Secondary full-frame GIE.  ID 1 belongs to the chilli detector; keeping
+# this distinct lets the shared metadata callback separate both models.
+gie-unique-id=2
+process-mode=1
+network-type=0
+cluster-mode=2
+maintain-aspect-ratio=1
+# YOLOv8 uses centered letterboxing.  Without this, DeepStream places all
+# padding on one side, producing a spatially shifted tensor versus the
+# Ultralytics/ONNX image test.
+symmetric-padding=1
+
+parse-bbox-func-name=NvDsInferParseYolo
+custom-lib-path=libnvdsinfer_custom_impl_Yolo.so
+engine-create-func-name=NvDsInferYoloCudaEngineGet
+
+[class-attrs-all]
+pre-cluster-threshold=0.4
+nms-iou-threshold=0.20
+topk=300

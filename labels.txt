@@ -1,0 +1,5 @@
+healthy
+leaf-curl
+leaf-spot
+whitefly
+yellowish

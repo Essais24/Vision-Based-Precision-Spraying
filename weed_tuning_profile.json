@@ -1,0 +1,7 @@
+{
+  "exg_threshold": 28,
+  "min_area": 722,
+  "cluster_area_threshold": 200000,
+  "separation_px": 41,
+  "max_box_area": 500000
+}
